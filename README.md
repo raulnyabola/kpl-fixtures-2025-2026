@@ -23,11 +23,11 @@ This project converts the Kenya Premier League 2025/2026 Fixtures into two usefu
 
 * Convert raw fixtures into a clean CSV file
 * Convert the CSV into an ICS calendar file
-* Each calendar event includes:
-  ◯ Match title (Home vs Away)
-  ◯ Date & Kickoff Time
-  ◯ Location (Stadium, City)
-  ◯ Automatic 2-hour match duration
+* Each calendar event includes: <br>
+  ◯ Match title (Home vs Away) <br>
+  ◯ Date & Kickoff Time <br>
+  ◯ Location (Stadium, City) <br>
+  ◯ Automatic 2-hour match duration <br>
 
 ---
 
