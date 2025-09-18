@@ -6,27 +6,26 @@ This project converts the Kenya Premier League 2025/2026 Fixtures into two usefu
 2. ICS (calendar format, importable into Google Calendar, Outlook, Apple Calendar, etc.)
 
 📂 Project Structure
-├── create_csv.py      # Parse raw fixtures text into CSV
-├── create_ics.py      # Convert CSV into ICS calendar
-├── fixtures.csv       # Example CSV (generated)
-├── fixtures.ics       # Example ICS (generated)
-├── README.md          # Documentation
+├── create_csv.py      # Parse raw fixtures text into CSV <br>
+├── create_ics.py      # Convert CSV into ICS calendar <br>
+├── fixtures.csv       # Example CSV (generated) <br>
+├── fixtures.ics       # Example ICS (generated) <br>
+├── README.md          # Documentation <br>
 
 ⚡ Features
-1. Convert raw fixtures into a clean CSV file
-2. Convert CSV into an ICS calendar file
-3. Each event includes:
-◯ Match title (Home vs Away)
-◯ Date & Kickoff Time
-◯ Location (Stadium, City)
-◯ Automatic 2-hour match duration
+1. Convert raw fixtures into a clean CSV file <br>
+2. Convert CSV into an ICS calendar file <br> 
+3. Each event includes: <br>
+◯ Match title (Home vs Away) <br>
+◯ Date & Kickoff Time <br>
+◯ Location (Stadium, City) <br>
+◯ Automatic 2-hour match duration <br>
 
 🚀 Usage
-1. Clone the repository
-2. Generate Fixtures CSV: Run the script to create fixtures.csv from the raw fixture text:
+1. Clone the repository <br>
+2. Generate Fixtures CSV: Run the script to create fixtures.csv from the raw fixture text: <br>
 python create_csv.py
-
-3. Generate Calendar File (ICS): Convert the CSV into an ICS calendar file:
+3. Generate Calendar File (ICS): Convert the CSV into an ICS calendar file: <br>
 python create_ics.py
 
 
@@ -37,11 +36,11 @@ This creates a fixtures.ics file.
 2. Open Google Calendar
 3. On the left, click “Other calendars” → “+” → Create new calendar
 4. Give it a name, e.g. Kenya Premier League 2025/2026
-5. Import the Fixtures
-◯ Go to ⚙ Settings → Import & Export
-◯ Select fixtures.ics
-◯ Under Add to calendar, choose the new calendar you just created
-◯ Click Import
+5. Import the Fixtures <br>
+◯ Go to ⚙ Settings → Import & Export <br>
+◯ Select fixtures.ics <br>
+◯ Under Add to calendar, choose the new calendar you just created <br>
+◯ Click Import <br>
 
 Now all fixtures will appear in that calendar, keeping them separate from your personal events.
 
